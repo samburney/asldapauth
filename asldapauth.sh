@@ -1,5 +1,7 @@
 #!/usr/bin/php
 <?php
+error_reporting(E_ERROR | E_PARSE);
+
 require_once('/usr/local/share/asldapauth/asldapauth-config.php');
 
 require_once('MDB2.php');
